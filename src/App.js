@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <div>
-      <h1>{post.map( pas=> <p key={pas.titulo}>{pas.titulo}</p>)}</h1>
+      <h1>{post.map( pas=> <p key={pas.link}>{pas.titulo}</p>)}</h1>
       <p>{post.sentimiento}</p>
     </div>
   );
